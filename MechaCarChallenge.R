@@ -3,8 +3,8 @@ library(tidyverse)
 ### MPG Regression
 
 # Import dataset
-mpg_table = read.csv("MechaCar_mpg.csv")
-suspension_table = read.csv("Suspension_Coil.csv")
+mpg_table = read.csv("./resources/MechaCar_mpg.csv")
+suspension_table = read.csv("./resources/Suspension_Coil.csv")
 #Create Multiple Line Regressions
 lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD, data=mpg_table)
 summary(lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD, data=mpg_table))
