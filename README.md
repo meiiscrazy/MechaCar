@@ -14,7 +14,7 @@ The R² is 0.71 which means there is a strong correleation between the variables
 
 Yes, all variables are significant in determining mpg for a car. 
 
-![Linear Model]("./resources/linear_model.png")
+![Linear Model]("/resources/linear_model.png")
 
 ## Suspension Coil Summary
 #### 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. Does the current manufacturing data meet this design specification? Why or why not?
@@ -25,7 +25,7 @@ Median = 1499.75
 Variance = 76.23
 Std Dev = 8.73
 
-![descriptive stats]("./resources/summary_stats.png")
+![descriptive stats]("/resources/summary_stats.png")
 
 ## Suspension Coil T-Test
 #### 1. Provide a small writeup of your interpretation and findings for the t-test results
@@ -40,7 +40,7 @@ t-test for Lot 1 = 0.12
 t-test for Lot 2 = -0.95
 t-test for Lot 3 = -0.47
 
-![t-test]("./resources/ttest.png")
+![t-test]("/resources/ttest.png")
 
 ## Study Design
 ### Design a study that compares the performance of the MechaCar prototype vehicle to other comparable vehicles on the market.
